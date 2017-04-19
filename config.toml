@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://gifmos-c7c37.firebaseapp.com/"
 languageCode = "en-us"
 title = "GIFMos"
 googleAnalytics = "UA-97636604-1"
