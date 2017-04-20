@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Hello world 3
 ---
 ## Attempting automatic deployment using travic-ci for the ultimate in coolness.
