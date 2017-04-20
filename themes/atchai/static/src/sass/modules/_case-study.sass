@@ -1,0 +1,128 @@
+.case-study
+    text-align: left
+    background-attachment: fixed
+    
+    p
+        color: $case-study-text
+        font-family: Raleway-Regular
+    
+    &-chevron
+        +chevron(url('/img/casestudy-bg.png'))
+        
+    &-container
+        padding-bottom: 100px
+    
+    &-image
+        width: 80%
+        margin-top: 150px
+        float: right
+        margin-right: 50px
+        max-width: 600px
+        
+    &-case
+        margin-top: 100px
+        
+    &-text
+        margin-left: 50px
+        
+    &-case
+        font-size: 18px
+        
+    &-dataseed
+        width: 40%
+        max-width: 280px
+        margin-bottom: 17.5px
+        
+    &-simple
+        font-size: 16px
+        margin-bottom: -2.5px
+        max-width: 250px
+        
+    &-hr
+        margin: 25px 0 25px 0
+        +hr(25px, $case-study-text)
+        
+    &-small
+        font-size: 12px
+        margin-bottom: 10px
+        max-width: 250px
+        
+    &-square
+        display: inline-block
+        text-align: center
+        padding-left: 10px
+        padding-right: 10px
+        height: 170px
+        width: 110px
+        margin-top: 30px
+        
+        &-guardian
+            border: 1px solid $case-study-guardian
+            
+        &-winner
+            border: 1px solid $case-study-winner
+        
+    &-strong
+        font-family: Raleway-Bold
+        
+    &-beautiful
+        letter-spacing: 1.5px
+        font-size: 14px
+        
+    &-winner
+        text-transform: uppercase
+        line-height: 1.2
+        
+        p
+            font-size: 12px
+            margin-top: 10px
+            color: $case-study-winner
+            
+        img
+            margin-bottom: 10px
+            width: 60px
+        
+    &-guardian
+        text-transform: uppercase
+        line-height: 1.2
+        
+        p
+            margin-top: 18px
+            font-size: 12px
+            color: $case-study-guardian
+            
+        img
+            margin-bottom: 36px
+            margin-top: 26px
+            width: 60px
+            
+    @media screen and (max-width: 991px)
+        text-align: center
+        
+        &-image
+            float: none
+            display: block
+            margin: 0 auto
+            padding-top: 50px
+            
+        &-text
+            margin-left: 0px
+            
+        &-small, &-simple
+            max-width: none
+            
+        &-hr
+            margin: 0 auto
+            margin-top: 15px
+            margin-bottom: 15px
+            
+        &-square
+            margin-top: 30px
+            
+        &-case
+            margin-top: 50px
+            
+    @media screen and (max-width: 325px)
+        
+        &-square
+            margin-bottom: 20px

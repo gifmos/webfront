@@ -1,0 +1,38 @@
+.svg-icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+/* =======================================================================================
+Example showing how to change the color/size of the icons:
+.svg-icon-name {
+	font-size: 32px; // works because "width" & "height" were set using em units
+	color: red; // works for single-colored icons, because "fill" was set to "currentColor"
+}
+======================================================================================== */
+
+.svg-icon-mail {
+	width: 1.000000972300768em;
+}
+
+.svg-icon-twitter {
+	width: 0.9285703301429749em;
+}
+
+.svg-icon-facebook {
+	width: 0.5881709158420563em;
+}
+
+.svg-icon-github {
+	width: 0.8571436107158661em;
+}
+
+.svg-icon-linkedin {
+	width: 0.8571425303816795em;
+}
+
+.svg-icon-medium {
+	width: 1.0000000428408384em;
+}

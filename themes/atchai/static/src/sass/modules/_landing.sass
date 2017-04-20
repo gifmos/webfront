@@ -1,0 +1,135 @@
+.landing
+  &-top-section
+    background: #efe33a url("../../img/background.png")
+    background-size: cover
+    color: #262626
+    padding-top: 4.5%
+    font-family: Raleway-Regular
+    .landing-top-block
+      width: 75%
+      margin: 0 auto
+      background-color: white
+      padding: 0 9% 5%
+      text-align: center
+      @media only screen and (max-width: 600px)
+        width: 90%
+      h1
+        text-transform: uppercase
+        border-bottom: 1px solid black
+        font-weight: 800
+        font-family: 'Raleway', sans-serif
+        font-size: 60px
+        letter-spacing: 3px
+        display: inline-block
+        line-height: 1.7
+        @media only screen and (max-width: 1200px)
+          font-size: 45px
+        @media only screen and (max-width: 1023px)
+          font-size: 40px
+        @media only screen and (max-width: 767px)
+          font-size: 28px
+        @media only screen and (max-width: 500px)
+          font-size: 20px
+      h2
+        font-family: Raleway-Light
+        text-transform: uppercase
+        letter-spacing: 1px
+      p
+        font-size: 14px
+        line-height: 1.4
+        strong
+          font-weight: normal
+          font-family: Raleway-SemiBold
+
+    .img-form
+      margin-top: 45px
+      .row:not(:last-of-type)
+        margin-bottom: 30px
+        @media only screen and (max-width: 400px)
+          margin-bottom: 0
+      .row:first-of-type
+        @media only screen and (max-width: 992px)
+          .col-md-3, .col-md-4
+            width: 200px
+            vertical-align: middle
+        @media only screen and (max-width: 768px)
+          .col-md-3, .col-md-4
+            width: 49%
+        @media only screen and (max-width: 400px)
+          .col-md-3, .col-md-4
+            width: 80%
+            margin-bottom: 20px
+      .col-md-2, .col-md-3, .col-md-4
+        float: none
+        display: inline-block
+        vertical-align: top
+        @media only screen and (max-width: 992px)
+          width: 150px
+        &.circle
+          img
+            width: 80%
+            @media only screen and (max-width: 1200px)
+              width: 100%
+            @media only screen and (max-width: 992px)
+              width: 100px
+
+      a
+        &:hover
+          opacity: 0.7
+          text-decoration: none
+          h5
+            opacity: 0.7
+        img
+          width: 100%
+        h5
+          line-height: 1.2
+          margin-top: 0
+          padding-top: 10px
+          color: black
+
+  &-case-study
+    &-section
+      background: #fff
+      color: white
+      position: relative
+      padding: 75px 0
+      +chevron-index(black)
+      &:nth-of-type(2n-1)
+        +chevron-index(white)
+        color: black
+      & + .testimonials
+        padding-top: 30px
+    &-container
+      width: 70%
+      margin: 0 auto
+      h2
+        font-size: 3.2em
+        margin-top: 6%
+        letter-spacing: 2px
+        margin-bottom: 5%
+        @media only screen and (max-width: 992px)
+          text-align: center
+        .text_bold
+          font-weight: 800
+      &-col
+        z-index: 2
+        a
+          color: inherit
+          text-decoration: underline
+      &-img
+        position: relative
+        z-index: 3
+        margin-top: 25px
+        padding-left: 10%
+        text-align: center
+        @media only screen and (max-width: 992px)
+          margin-top: 30px
+          padding: 0
+        img
+          width: 100%
+          @media only screen and (max-width: 992px)
+            max-width: 300px
+
+
+
+

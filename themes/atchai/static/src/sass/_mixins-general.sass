@@ -1,0 +1,303 @@
+=chevron($color)
+
+    position: relative
+
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: 50.1%
+        background: $color
+        -webkit-transform: skew(0deg, 6deg)
+        -moz-transform: skew(0deg, 6deg)
+        -ms-transform: skew(0deg, 6deg)
+        -o-transform: skew(0deg, 6deg)
+        transform: skew(0deg, 6deg)
+        z-index: -1
+        border-right: none
+
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        right: 0
+        height: 100%
+        width: 50%
+        background: $color
+        -webkit-transform: skew(0deg, -6deg)
+        -moz-transform: skew(0deg, -6deg)
+        -ms-transform: skew(0deg, -6deg)
+        -o-transform: skew(0deg, -6deg)
+        transform: skew(0deg, -6deg)
+        z-index: -1
+        border-left: none
+
+=chevron-portfolio($color, $border)
+
+    position: relative
+
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: 50%
+        background: $color
+        -webkit-transform: skew(0deg, 6deg)
+        -moz-transform: skew(0deg, 6deg)
+        -ms-transform: skew(0deg, 6deg)
+        -o-transform: skew(0deg, 6deg)
+        transform: skew(0deg, 6deg)
+        z-index: -1
+        border: 1px solid $border
+        border-top: none
+        border-right: none
+
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        right: 0
+        height: 100%
+        width: 50%
+        background: $color
+        -webkit-transform: skew(0deg, -6deg)
+        -moz-transform: skew(0deg, -6deg)
+        -ms-transform: skew(0deg, -6deg)
+        -o-transform: skew(0deg, -6deg)
+        transform: skew(0deg, -6deg)
+        z-index: -1
+        border: 1px solid $border
+        border-left: none
+        border-top: none
+
+=chevron-index($color)
+
+    position: relative
+
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: 50.1%
+        background: $color
+        -webkit-transform: skew(0deg, 6deg)
+        -moz-transform: skew(0deg, 6deg)
+        -ms-transform: skew(0deg, 6deg)
+        -o-transform: skew(0deg, 6deg)
+        transform: skew(0deg, 6deg)
+        z-index: 1
+        border-right: none
+
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        right: 0
+        height: 100%
+        width: 50%
+        background: $color
+        -webkit-transform: skew(0deg, -6deg)
+        -moz-transform: skew(0deg, -6deg)
+        -ms-transform: skew(0deg, -6deg)
+        -o-transform: skew(0deg, -6deg)
+        transform: skew(0deg, -6deg)
+        z-index: 1
+        border-left: none
+
+=chevron-index-null($color)
+
+    position: relative
+
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: 50.1%
+        background: $color
+        -webkit-transform: skew(0deg, 6deg)
+        -moz-transform: skew(0deg, 6deg)
+        -ms-transform: skew(0deg, 6deg)
+        -o-transform: skew(0deg, 6deg)
+        transform: skew(0deg, 6deg)
+        z-index: 0
+        border-right: none
+
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        right: 0
+        height: 100%
+        width: 50%
+        background: $color
+        -webkit-transform: skew(0deg, -6deg)
+        -moz-transform: skew(0deg, -6deg)
+        -ms-transform: skew(0deg, -6deg)
+        -o-transform: skew(0deg, -6deg)
+        transform: skew(0deg, -6deg)
+        z-index: 0
+        border-left: none
+
+=hr($width, $color)
+
+    width: $width
+    border-top: 1px solid $color
+
+.row-mod
+    margin: 0
+
+.blog-image
+    width: 100%
+
+.consultation.blog
+    bottom: 0px
+
+@keyframes fadein
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@-moz-keyframes fadein
+    from
+        opacity: 0
+
+    to
+        opacity: 1
+
+
+@-webkit-keyframes fadein
+    from
+        opacity: 0
+
+    to
+        opacity: 1
+
+@-o-keyframes fadein
+    from
+        opacity: 0
+
+    to
+        opacity: 1
+
+// Adding sprites
+
+.icon
+    display: inline-block
+    background-repeat: no-repeat
+    background-image: url(/img/sprite-social.svg)
+
+.icon-feed
+    width: 32px
+    height: 32px
+    background-position: 0 0
+
+.icon-github
+    width: 32px
+    height: 32px
+    background-position: -48px 0
+
+.icon-slideshare
+    width: 32px
+    height: 32px
+    background-position: -96px 0
+
+.icon-twitter
+    width: 32px
+    height: 32px
+    background-position: -144px 0
+
+.tech
+    display: inline-block
+    background-repeat: no-repeat
+    background-image: url(/img/sprite-tech.svg)
+
+.tech-Logos_ApacheSpark
+    width: 115px
+    height: 48px
+    background-position: 0 0
+
+.tech-Logos_elastic
+    width: 94px
+    height: 48px
+    background-position: -156px 0
+
+.tech-Logos_amazon
+    width: 115px
+    height: 48px
+    background-position: -312px 0
+
+.tech-Logos_heroku
+    width: 115px
+    height: 48px
+    background-position: -468px 0
+
+.tech-Logos_js
+    width: 52px
+    height: 48px
+    background-position: -624px 0
+
+.tech-Logos_python
+    width: 115px
+    height: 48px
+    background-position: -780px 0
+
+.tech-Logos_solr
+    width: 90px
+    height: 48px
+    background-position: -936px 0
+
+.tech-drupal
+    width: 41px
+    height: 48px
+    background-position: 0 -78px
+
+.client
+    display: inline-block
+    background-repeat: no-repeat
+    background-image: url(../../img/sprite-clients.svg)
+    position: relative
+    z-index: 5
+
+.client-NHS
+    width: 124px
+    height: 50px
+    background-position: 0 0
+
+.client-Turner
+    width: 199px
+    height: 50px
+    background-position: -200px 0
+
+.client-Champion
+    width: 101px
+    height: 50px
+    background-position: -500px 0
+
+.client-hscic
+    width: 198px
+    height: 50px
+    background-position: -700px 0
+
+.client-Internews
+    width: 188px
+    height: 50px
+    background-position: -1000px 0
+
+.client-Parity
+    width: 231px
+    height: 50px
+    background-position: -1300px 0
+
+.client-Bank
+    width: 214px
+    height: 50px
+    background-position: -1600px 0

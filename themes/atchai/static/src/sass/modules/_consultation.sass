@@ -1,0 +1,50 @@
+.consultation
+    background: white
+    text-align: center
+    position: relative
+    font-family: Raleway-Regular
+    color: $consultation-text
+    padding-bottom: 50px
+    
+    a
+        display: block
+        color: $consultation-text
+        transition: color .3s
+        max-width: 300px
+        margin: 0 auto
+        
+        &:hover, &:focus
+            text-decoration: none
+            color: $consultation-hr
+        
+    &-mobile
+        font-family: Opensans-Light
+        font-size: 38px
+        
+    &-email
+        font-size: 25px
+        font-family: Raleway-Bold
+    
+    &-header
+        font-family: Raleway-SemiBold
+        text-transform: uppercase
+        font-size: 26px
+        margin-top: 10px
+        
+    &-lorem
+        font-size: 14px
+        
+    &-hr
+        margin: 0 auto
+        +hr(20px, $consultation-hr)
+        margin-top: 25px
+        margin-bottom: 25px
+        
+    &-map
+        text-transform: uppercase
+        font-family: OpenSans-Regular
+        
+    a.consultation-map-bold
+            text-transform: uppercase
+            font-family: Raleway-Bold
+            display: inline

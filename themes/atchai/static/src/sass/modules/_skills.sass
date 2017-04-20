@@ -1,0 +1,81 @@
+.skills
+    color: $skills-text
+    text-align: center
+    font-family: Raleway-Regular
+    padding-bottom: 80px
+    
+    &-chevron
+        +chevron($skills-bg)
+    
+    &-header
+        padding-top: 75px
+        font-family: Raleway-SemiBold
+        text-transform: uppercase
+        padding-bottom: 10px
+        
+    &-list
+        list-style: none
+        padding-left: 0
+        
+        &-item
+            margin-bottom: 2.5px
+            font-size: 17px
+            
+    &-hr
+        margin: 0 auto
+        +hr(50px, black)
+        margin-top: 25px
+        padding-bottom: 25px
+            
+    &-text
+        font-size: 14px
+        max-width: 650px
+        margin: 0 auto
+        margin-bottom: 15px
+        
+    &-images
+        margin-top: 35px
+        padding-bottom: 30px
+        
+    &-bottom
+        background-color: #fff
+        width: 100%
+        height: 87px
+        position: relative
+        top: 42px
+        
+    &-government
+        float: right
+        padding: 15px 60px 15px 30px
+        border: 1px solid $skills-text
+        
+    &-logos
+        
+        img
+            display: inline-block
+            margin-right: 10px
+            
+        &-lower
+            margin-top: 10px
+            
+        &-upper
+            margin-top: 10px
+            
+    @media screen and (max-width: 992px)
+        
+        &-government
+            float: none
+            
+        &-logos
+            text-align: center
+            
+            &:first-child
+                margin-top: 25px
+            
+            &-lower
+                margin-left: 0px
+                
+    @media screen and (max-width: 500px)
+        
+        &-government
+            width: 250px

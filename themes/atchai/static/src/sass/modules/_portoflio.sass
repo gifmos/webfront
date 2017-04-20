@@ -1,0 +1,445 @@
+.portfolio
+    padding-top: 75px
+    color: white
+    text-align: left
+    line-height: 1.7
+    font-family: Raleway-Regular
+
+    h2
+        text-transform: uppercase
+        font-family: Raleway-Bold
+        padding-bottom: 10px
+        position: relative
+        z-index: 3
+
+    img
+        position: relative
+        z-index: 3
+
+    &-thin
+        font-family: Raleway-Regular
+
+    &-dataseed-chevron
+        +chevron-index-null($about-bg)
+
+    &-groupseer-chevron
+        +chevron(white)
+
+    &-resultsmark-chevron
+        +chevron(black)
+
+    &-newsverify-chevron
+        +chevron-index(#F2F2F2)
+
+    &-data-chevron
+        +chevron(#F2F2F2)
+
+    &-clinical-chevron
+        +chevron-index(black)
+
+    &-tv-chevron
+        background-color: black
+
+    &-dataseed
+
+        h2
+            text-transform: none
+            font-size: 40px
+
+            a
+                color: white
+
+    &-tv
+        position: relative
+        bottom: 50px
+
+        &-container
+            padding-top: 100px
+            padding-bottom: 25px
+
+        .portfolio-tech p
+            padding-bottom: 0px
+
+        .portfolio-logo-image
+            img
+                width: 40%
+                margin-right: 20px
+
+        .portfolio-testimony-text p
+            max-width: 750px
+            margin: 0 auto
+            margin-bottom: 17.5px
+
+        h2 a
+            color: white
+
+    &-data
+        color: black
+        z-index: 1
+
+        &-bottom
+            width: 100%
+            height: 70px
+            background-color: #f2f2f2
+
+        .portfolio-logo-image img
+            width: 100%
+            margin-top: 60px
+
+        .portfolio-tech p
+            padding-bottom: 0px
+            color: white
+
+        .portfolio-testimony
+            img
+                width: 80px
+
+        .portfolio-testimony-text p
+            max-width: 750px
+            margin: 0 auto
+            margin-bottom: 17.5px
+
+        h2 a
+            color: black
+
+    &-clinical
+        
+        .portfolio-logo-image
+        margin-top: 0
+        position: relative
+
+        img
+            max-width: 230px
+
+        .client-hscic
+            position: absolute
+
+        h2 a
+            color: white
+
+    &-newsverify
+        color: black
+
+        .portfolio-logo-image
+
+            .logo
+                width: auto
+                display: block
+                margin: 0 auto
+                padding-left: 10px
+                padding-bottom: 60px
+
+            .social
+                max-width: 400px
+
+        h2
+            a
+                font-family: Raleway-Bold
+                display: inline-block
+                color: black
+
+        .portfolio-logo
+            display: inline-block
+            position: relative
+            z-index: 3
+
+            img
+                min-width: 80px
+                float: right
+                width: 125px
+                margin-top: 20px
+
+        .portfolio-tech p
+            color: white
+
+    &-resultsmark
+
+        h2
+            a
+                color: white
+
+        .portfolio-logo-image img
+            margin-top: 50px
+
+        .portfolio-testimony-text p
+            max-width: 725px
+            margin: 0 auto
+            margin-bottom: 17.5px
+
+
+    &-groupseer
+
+        h2
+            a
+                color: black
+
+        p
+            color: black
+
+        .portfolio-logo-image img
+            max-width: 300px
+
+        .portfolio-tech p
+            color: white
+
+        .portfolio-testimony-text p
+            max-width: 750px
+            margin: 0 auto
+            margin-bottom: 17.5px
+
+    &-testimony-tv-chevron
+
+        div.portfolio-hr
+            +hr(25px, white)
+
+        h3
+            color: white !important
+
+        hr
+            border-top: #fff 1px solid !important
+
+    &-testimony-resultsmark-chevron
+        text-align: center
+
+        .portfolio-testimony-text
+            padding-left: 15px
+
+        h3
+            color: white
+            text-transform: uppercase
+
+        .portfolio-hr
+            margin: 0 auto
+            margin-top: 20px
+
+        img
+            width: 100px
+
+
+    &-testimony-groupseer-chevron
+        text-align: center
+
+        .portfolio-testimony-text
+            padding-left: 15px
+
+        hr
+            border-top: darken(#fff, 40%) 1px solid
+
+        h3
+            color: black
+            text-transform: uppercase
+
+        .portfolio-hr
+            +hr(25px, black)
+            margin: 0 auto
+            margin-top: 20px
+
+        img
+            width: 100px
+
+    &-container
+        max-width: 1000px
+
+    &-logo
+        padding-right: 40px
+
+        img
+            width: 40%
+            max-width: 280px
+            min-width: 220px
+            padding-bottom: 30px
+
+        p
+            margin-bottom: 25px
+            position: relative
+            z-index: 3
+
+        &-image
+            padding-left: 75px
+
+            img
+                width: 100%
+
+
+
+    &-tech
+        text-align: center
+        padding-top: 50px
+        padding-bottom: 30px
+        position: relative
+        z-index: 9
+
+        p
+            display: inline-block
+            margin-right: 10px
+            background-color: darken(#009CE2, 10%)
+            padding: 3.5px 7.5px 3.5px 7.5px
+            border-radius: 2.5px
+            color: white
+
+    &-testimony
+        padding-bottom: 20px
+        margin-bottom: 50px
+        z-index: 1
+        margin-top: 30px
+
+        &-container
+            padding-top: 20px
+            padding-bottom: 20px
+
+        hr
+            position: relative
+            bottom: 26px
+            margin: 0
+
+        h3
+            font-family: Raleway-Bold
+            text-transform: uppercase
+
+        &-text
+            padding-left: 60px
+
+        @media screen and (min-width: 768px)
+            &-chevron
+                +chevron-portfolio(black, white)
+
+            &-groupseer-chevron
+                +chevron-portfolio(white, darken(#fff, 40%))
+
+            &-resultsmark-chevron
+                +chevron-portfolio(black, white)
+
+            &-data-chevron
+                +chevron-portfolio(#f2f2f2, darken(#fff, 40%))
+
+            &-tv-chevron
+                +chevron-portfolio(black, white)
+
+    &-hr
+        +hr(25px, white)
+        margin-top: 20px
+
+    &-square
+        margin-top: 0px
+        display: block
+        background-color: white
+        border-color: white
+        width: 250px
+        height: 65px
+        margin-bottom: 15px
+        margin-left: 70px
+
+        p
+            color: black
+            display: inline-block
+            float: left
+            margin-left: 15px
+
+        img
+            text-align: right
+            margin: 0
+            padding: 0
+            vertical-align: top
+            width: 50px
+            float: right
+            margin-right: 15px !important
+            margin-top: 10px !important
+
+        &-guardian img
+            margin-top: 7px !important
+
+    &-black
+        width: 100%
+        height: 50px
+        position: relative
+        background-color: black
+
+    @media screen and (max-width: 991px)
+        text-align: center
+
+        .portfolio-logo img
+            max-width: 0
+            min-width: 170px
+
+        &-newsverify 
+            
+            .portfolio-logo
+
+            h2
+                display: block
+
+            img
+                display: block
+                float: none
+                margin: 0 auto
+
+            &-image .logo
+                margin: 0 auto
+                padding-left: 5px
+                padding-bottom: 20px
+
+        &-clinical .portfolio-logo-image
+
+            margin-top: 0px
+
+            .client-hscic
+                position: relative
+                margin-top: 20px
+
+        &-tv .portfolio-logo-image img
+            display: inline-block
+            max-width: 200px
+            margin: 0 auto
+            margin-left: 10px
+            margin-right: 10px
+
+        &-logo
+            padding-right: 0
+            padding-left: 0
+
+            &-image
+                padding-left: 0
+                padding-right: 0
+                position: relative
+                z-index: 3
+
+                img
+                    max-width: 500px
+                    display: block
+                    margin: 0 auto
+
+        &-testimony hr
+            bottom: 20px
+
+        &-hr
+            margin: 0 auto
+
+    @media screen and (max-width: 767px)
+
+        &-testimony
+            margin-top: 0px
+            margin-bottom: 20px
+
+            &-container
+                padding-top: 10px
+
+            h3
+                margin-bottom: 20px
+
+            &-text
+                padding-left: 0
+                position: relative
+                z-index: 3
+
+        &-resultsmark .portfolio-logo-image img
+            min-width: 0
+
+        &-square
+            margin: 0 auto
+            margin-bottom: 15px
+
+        hr
+            display: none
+
+        &-hr
+            margin-top: 20px

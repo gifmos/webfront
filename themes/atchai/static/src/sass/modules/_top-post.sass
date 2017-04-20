@@ -1,0 +1,91 @@
+.top-post
+  text-align: center
+  background: #efe33a url(../../img/hiring-bg.png) no-repeat
+  position: relative
+  padding: 30px 0 0
+  margin-bottom: -55px
+  background-size: cover
+  @media screen and (max-width: 768px)
+    transform: translateY(-60px)
+    background-position-y: -90%
+    background-size: 230% 115%
+    margin-bottom: -85px
+  &.menu-open
+    transform: translateY(0)
+    margin-bottom: -55px
+  & > img
+    width: 80px
+  & > h1
+    padding-top: 20px
+    text-transform: uppercase
+    font-weight: 800
+    font-size: 3.5em
+    font-family: 'Raleway', sans-serif
+    letter-spacing: 3px
+  h2
+    text-transform: uppercase
+    letter-spacing: 2px
+    font-size: 2.2em
+    font-weight: 300
+    font-family: Raleway-Light, sans-serif
+    margin-top: 10px
+  .tiles
+    margin-top: 80px
+    padding-bottom: 120px
+    @media screen and (max-width: 1000px)
+      margin-top: 20px
+      padding-bottom: 80px
+    .tile
+      float: none
+      display: inline-block
+      vertical-align: middle
+      width: 28%
+      margin: 0 1%
+      padding: 0
+      border: 3px solid rgb(20, 20, 20)
+      background: rgba(255, 255, 255, 0.1)
+      transition: all 0.2s
+      @media screen and (max-width: 1000px)
+        width: 50%
+        margin: 7px 1%
+      @media screen and (max-width: 550px)
+        width: 75%
+      &:hover
+        background: rgba(255, 255, 255, 0.3)
+      h1, h2
+        margin: 0
+        a
+          display: block
+          padding: 15px
+          color: rgb(20,20,20)
+          font-size: 16px
+          font-family: Raleway-Bold, sans-serif
+          text-transform: uppercase
+          &:hover
+            text-decoration: none
+  .hiring
+    background: white
+    width: 31%
+    margin: 0 auto
+    padding: 10px 25px 60px
+    font-size: .7em
+    letter-spacing: 2px
+    font-family: 'Raleway', sans-serif
+    @media screen and (max-width: 1000px)
+      width: 50%
+    @media screen and (max-width: 600px)
+      width: 80%
+    h4
+      font-size: 20px
+      font-family: Raleway-Light, sans-serif
+      text-transform: uppercase
+    p
+      margin-top: 20px
+      font-size: 17px
+      line-height: 1.5
+      font-family: Raleway-SemiBold, sans-serif
+      a
+        color: black
+        &:hover
+          opacity: 0.7
+          text-decoration: none

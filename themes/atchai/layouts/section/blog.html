@@ -1,0 +1,27 @@
+{{ partial "small-header.html" . }}
+           
+	<section id="content">
+       
+       <article class="posts container">
+           <h1 class="posts-header">GIFMos blog</h1>
+           <div class="blog-posts blog-posts-container">
+     
+               {{ range .Paginator.Pages }}
+               
+                   <div class="blog-posts-post clearfix">
+                       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                       <p class="blog-posts-by">Posted {{ .Date.Format "2 Jan 2006" }} ({{.ReadingTime }} minute read)</p>
+                       <p>{{ .Summary }}</p>
+                       <a href="{{ .RelPermalink }}" class="blog-posts-post-more">Read more <i class="fa fa-chevron-right"></i></a>
+                   </div>
+               
+               {{ end }}
+            
+               {{ partial "pager.html" . }}
+               
+           </div>
+       </article>
+	</section>
+
+
+{{ partial "footer.html" . }}

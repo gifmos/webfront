@@ -1,0 +1,26 @@
+{
+  "name": "atchai-hugo",
+  "version": "1.0.0",
+  "description": "hugo website for atchai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atchai/atchai-hugo.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atchai/atchai-hugo/issues"
+  },
+  "homepage": "https://github.com/atchai/atchai-hugo#readme",
+  "dependencies": {
+    "child-process-promise": "^2.0.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0"
+  }
+}

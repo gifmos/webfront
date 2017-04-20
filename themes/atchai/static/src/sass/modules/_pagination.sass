@@ -1,0 +1,42 @@
+.pagination
+    width: 100%
+    text-align: center
+    padding-top: 30px
+    
+    p
+        display: inline-block
+        margin-top: 12.5px
+        color: $pagination-color
+        font-family: Raleway-SemiBold
+        
+    &-button
+        border: none
+        color: white
+        background-color: $pagination-color
+        padding: 7.5px 35px 7.5px 35px
+        transition: .3s background-color
+        font-family: Raleway-Regular
+        
+        &:hover, &:active, &:focus
+            background-color: darken($pagination-color, 20%)
+        
+        &-left
+            float: left
+            
+            span
+                margin-right: 5px
+                position: relative
+                top: 2.5px
+                
+        &-right
+            float: right
+            
+            span
+                margin-left: 5px
+                position: relative
+                top: 2.5px
+            
+    @media screen and (max-width: 400px)
+        
+        &-button
+            padding: 5px 15px 5px 15px

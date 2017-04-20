@@ -1,0 +1,23 @@
+.hiring
+    
+    &-header
+        text-align: center
+        color: $carousel-h2
+        text-transform: uppercase
+        font-family: Raleway-Light
+        letter-spacing: 1.5px
+        transition: .3s color
+        
+        &:hover, &:focus, &:active
+            text-decoration: none
+    
+    &-carousel
+        padding: 120px 0 70px 0
+        
+    &-chevron
+        +chevron(white)
+            
+    @media screen and (max-width: 768px)
+        
+        &-carousel
+            padding: 90px 0 70px 0

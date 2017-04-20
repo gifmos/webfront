@@ -1,0 +1,53 @@
+html, body
+    height: 100%
+
+body
+translateZ(0)
+
+.top-post.top-post_portfolio
+    margin-bottom: -65px
+    @media screen and (max-width: 768px)
+        margin-bottom: -100px
+    &.menu-open
+        margin-bottom: -65px
+    h1
+        font-family: Raleway-Medium, sans-serif
+        text-transform: uppercase
+        color: $header-h1
+        letter-spacing: 1.5px
+        font-size: 43px
+        padding-bottom: 200px
+        animation: fadein 1s
+
+    .header-strong
+        font-family: Raleway-Bold, sans-serif
+
+    .header-portfolio
+        padding-bottom: 0px
+
+    .header-text
+        p
+            margin-bottom: 15px
+            font-family: Raleway-Regular
+
+    .header-hr
+        margin: 0 auto
+        +hr(25px, black)
+        margin-top: 25px
+        padding-bottom: 25px
+
+    .tiles
+        padding-bottom: 150px
+
+    @media screen and (max-width: 767px)
+
+        h1
+            font-size: 36px
+
+h1, h2, h3, h4, h5
+    -webkit-font-smoothing: antialiased
+
+section.index
+    z-index: 1
+    position: relative
+    margin-bottom: -20px

@@ -1,0 +1,270 @@
+.post
+    color: $post-text
+    max-width: 800px 
+    margin: 0 auto
+    padding-bottom: 50px
+    
+    img
+        max-width: 100%
+        display: block
+        margin: 0 auto
+        
+    h1
+        font-family: Raleway-SemiBold
+        margin-top: 40px
+        text-transform: uppercase
+        margin-bottom: 35px
+        text-align: center
+        
+    h2
+        font-family: Raleway-Regular
+        margin-top: 50px
+        color: $post-h2
+        text-align: left
+    
+    h2.subtitle
+        text-align: center
+        font-family: Raleway-Regular
+        margin-top: 50px
+        margin-bottom: 50px
+        font-size: 21px
+        
+            
+    h3
+        font-family: Raleway-SemiBold
+        color: $post-anchor
+        padding-bottom: 10px
+        border-bottom: 1px solid darken($post-silver, 20%)
+        margin-top: 30px
+            
+    p
+        text-align: left
+        font-family: Raleway-Regular
+        font-size: 17px
+        margin-bottom: 30px
+        
+    strong, b
+      font-family: Raleway-SemiBold
+      font-weight: normal
+            
+    a
+        color: darken($post-anchor, 25%)
+        font-family: inherit
+        transition: .3s color
+        text-decoration: underline
+
+        &:hover, &:focus, &:active
+            color: $post-anchor
+        
+    &-yellow-bg
+        background-color: $post-yellow
+        padding: 15px 25px 15px 25px
+        margin-bottom: 30px
+        
+    &-silver-bg
+        background-color: $post-silver
+        padding: 15px 25px 15px 25px
+        margin-bottom: 30px
+        
+    blockquote
+        font-size: 18px
+        border-left: none
+        font-family: OpenSans-Italic
+        position: relative
+        padding: 10px 65px
+        margin-bottom: 50px
+        
+        &:not(.is-caption):before
+            content: url('/img/before-blockquote.png')
+            padding-right: 5px
+            position: absolute
+            left: 0px
+        
+        &:not(.is-caption):after
+            content: url('/img/after-blockquote.png')
+            position: absolute
+            right: 0
+    
+    blockquote.is-caption p
+        color: #222
+        font-size: 14px
+        text-align: center
+
+    code
+        color: black
+        background-color: #f5f5f5
+        margin-top: 10px
+        margin-bottom: 10px
+        
+    pre
+        margin-top: 20px
+        margin-bottom: 20px
+        
+    ol
+        position: relative
+        list-style-type: none
+        font-family: Raleway-Regular
+        font-size: 17px
+        padding-top: 25px
+        padding-bottom: 25px
+        padding-left: 0px
+        margin-bottom: 0
+        
+        > li
+            counter-increment: step-counter
+            margin-bottom: 30px
+            
+            p
+                margin-bottom: 0px
+            
+            ul
+                padding-left: 95px
+                padding-top: 15px
+            
+            &:before
+                content: counter(step-counter)
+                background: url('/img/Bullet.svg')
+                background-size: 100%
+                background-repeat: no-repeat
+                background-position: center center
+                padding: 14px
+                width: 42px
+                height: 42px
+                margin-right: 10px
+                color: white
+                font-family: sans-serif
+                font-size: 14px
+            
+    ul
+        list-style: disc url('/img/Bullet-Ul.svg')
+        font-family: Raleway-Regular
+        padding-left: 17.5px
+        font-size: 17px
+        margin: 25px 0 25px 0
+        
+        li
+            color: $post-text
+            margin-bottom: 10px
+            
+            p
+                margin-bottom: 0px
+            
+            strong
+                display: block
+                margin-bottom: 10px
+                margin-top: 20px
+                
+        ul
+            margin: 20px 10px 20px 10px
+                
+    &-author
+        height: auto
+        background-color: $post-silver
+        margin-top: 15px
+        position: relative
+        
+        p
+            font-size: 14px
+            
+        a
+            color: $post-anchor
+            text-decoration: none
+            
+        h4, p
+            margin-left: 20px
+            
+        p.post-author-text
+            margin-bottom: 10px
+        p.post-author-date
+            display: block
+            margin-bottom: 0
+            margin-left: 20px
+            float: left
+        p.post-social-icons
+            display: block
+            padding-bottom: 20px
+            margin-right: 12px
+            text-align: right
+            .social-icon
+                font-size: 20px
+                margin-left: 16px
+                cursor: pointer
+
+        
+        &-left-container
+            float: left
+            width: auto
+            margin-right: 15px
+            position: absolute
+            top: 50%;
+            transform: translateY(-50%);
+            
+        &-right-container
+            width: auto
+            margin-top: 20px
+            padding-top: 1px
+            float: none
+            margin-left: 130px
+            padding-right: 10px
+            
+        img.post-author-img
+            width: 110px
+            margin-left: 20px
+            
+        &-header
+            padding-top: 10px
+            text-transform: uppercase
+            font-family: Raleway-SemiBold
+            color: $post-anchor
+            
+        &-date
+            padding-bottom: 20px
+            
+        a
+            overflow: hidden
+            
+            
+    @media screen and (max-width: 500px)
+        
+        blockquote
+            padding: 10px 50px
+        p.post-author-date
+            float: none
+            text-align: center
+        p.post-social-icons
+            clear: both
+            text-align: center
+
+
+            
+    @media screen and (max-width: 768px)
+        
+        h1
+            font-size: 30px
+            
+        h2
+            font-size: 22px
+            
+                
+        &-author
+
+            &-left-container
+                float: none
+                text-align: center
+                transform: none
+                position: static
+                
+                img.post-author-img
+                    padding-top: 15px
+                    display: block
+                    margin: 0 auto
+                    
+            &-right-container
+                margin: 0
+                text-align: center
+                
+                p
+                    text-align: center
+                    
+                h4, p
+                    margin-left: 0px

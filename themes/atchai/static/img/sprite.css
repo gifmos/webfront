@@ -1,0 +1,41 @@
+.client {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url(sprite.svg);
+	background-color: #b;
+}
+.client-NHS {
+	width: 124px;
+	height: 50px;
+	background-position: 0 0;
+}
+.client-Turner {
+	width: 199px;
+	height: 50px;
+	background-position: -200px 0;
+}
+.client-Champion {
+	width: 101px;
+	height: 50px;
+	background-position: -500px 0;
+}
+.client-hscic {
+	width: 198px;
+	height: 50px;
+	background-position: -700px 0;
+}
+.client-Internews {
+	width: 188px;
+	height: 50px;
+	background-position: -1000px 0;
+}
+.client-Parity {
+	width: 231px;
+	height: 50px;
+	background-position: -1300px 0;
+}
+.client-Bank {
+	width: 214px;
+	height: 50px;
+	background-position: -1600px 0;
+}

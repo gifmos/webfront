@@ -1,0 +1,55 @@
+.testimonials
+    width: 100%
+    background-image: url('/img/testimonials-bg.png')
+    background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/img/testimonials-bg.png')
+    background-repeat: no-repeat
+    background-size: cover
+    background-attachment: fixed
+    position: relative
+    background-position: center
+    text-align: center
+    position: relative
+    bottom: 50px
+    padding-top: 30px
+
+    @media only screen and (device-width: 768px)
+        background-attachment: scroll
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)
+                                                                                                        background-attachment: scroll
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)
+                                                                                                        background-attachment: scroll
+
+    &-text
+        color: white
+        font-family: Raleway-Regular
+        max-width: 600px
+        margin: 0 auto
+        margin-bottom: 15px
+
+        &:first-child
+            margin-top: 100px
+
+    &-image
+        padding-top: 15px
+        padding-bottom: 75px
+
+    &-hr
+        +hr(50px, #fff)
+        margin: 0 auto
+        margin-top: 35px
+        margin-bottom: 35px
+
+    &-header
+        color: white
+        font-family: Raleway-SemiBold
+        text-transform: uppercase
+
+        &-turner
+            text-transform: uppercase
+            color: white
+            font-family: Raleway-Regular
+            
+        a
+            color: white 

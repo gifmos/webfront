@@ -1,0 +1,92 @@
+.about
+    text-align: center
+
+    .client
+        margin-left: 10px
+        margin-right: 10px
+
+    &-chevron
+        +chevron-index($about-bg)
+
+    &-container
+        padding: 75px 0 50px 0
+
+    .row-mod
+        padding-bottom: 60px
+
+    &-innovation
+        border-right: 1px solid $about-border-right
+        position: relative
+        z-index: 3
+
+        &-header
+            color: $about-h2
+            font-family: OpenSans-Light
+            text-transform: uppercase
+            padding: 25px 0 35px 0
+            position: relative
+            z-index: 3
+
+            .about-bold
+                color: $about-h2-bold
+                font-family: OpenSans-Regular
+
+    &-bank
+        position: relative
+        bottom: 10px
+
+    &-quality h2
+        @extend .about-innovation-header
+
+    &-icon
+        margin-top: 50px
+
+    &-hr
+        margin: 0 auto
+        +hr(25px, $about-h2-bold)
+        margin-top: 50px
+        margin-bottom: 50px
+
+    &-upper-logos
+        max-width: 900px
+        margin: 0 auto
+
+    &-lower-logos
+        max-width: 900px
+        margin: 0 auto
+        margin-top: 20px
+
+    &-paragraph
+        color: $about-h2
+        font-family: Raleway-Regular
+        max-width: 550px
+        margin: 0 auto
+        margin-bottom: 15px
+        position: relative
+        z-index: 3
+
+    .logos-container
+        display: inline-block
+
+    @media screen and (max-width: 768px)
+
+        .logos-container
+            display: block
+            margin-bottom: 15px
+
+        &-bank
+            bottom: 0px
+
+        &-container
+            padding-left: 15px
+            padding-right: 15px
+
+        &-innovation
+            border-right: none
+
+    @media screen and (max-width: 350px)
+
+        .client-NHS, .client-Internews
+            display: block
+            margin: 0 auto
+            margin-top: 10px
