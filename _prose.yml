@@ -4,6 +4,11 @@ prose:
   media: 'content/images'
   metadata:
     content/blog:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
       - name: "title"
         field:
           element: "text"
