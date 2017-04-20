@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0990e1c0-66c4-471e-bef3-9e8e16439a35" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/blog/2017-04-19-hello-world.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/atchai/layouts/l/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/atchai/layouts/partials/testimonial-inition.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/atchai/layouts/partials/testimonial-mindbot.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/atchai/layouts/partials/testimonial-turner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/atchai/layouts/section/portfolio.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/images/120X120.png" afterPath="$PROJECT_DIR$/content/images/120X120.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/blog/2017-04-20-hello-world.md" afterPath="$PROJECT_DIR$/content/blog/2017-04-20-hello-world.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_prose.yml" afterPath="$PROJECT_DIR$/_prose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/atchai/layouts/partials/big-header.html" afterPath="$PROJECT_DIR$/themes/atchai/layouts/partials/big-header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/atchai/layouts/partials/footer.html" afterPath="$PROJECT_DIR$/themes/atchai/layouts/partials/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/atchai/layouts/partials/head.html" afterPath="$PROJECT_DIR$/themes/atchai/layouts/partials/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/atchai/layouts/blog/single.html" afterPath="$PROJECT_DIR$/themes/atchai/layouts/blog/single.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/atchai/layouts/partials/small-header.html" afterPath="$PROJECT_DIR$/themes/atchai/layouts/partials/small-header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gifmoswebfront.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +66,8 @@
       <file leaf-file-name="small-header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/atchai/layouts/partials/small-header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2200903">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.21162528">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -810,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/atchai/layouts/partials/small-header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2200903">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.21162528">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
