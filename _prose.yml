@@ -3,6 +3,11 @@ prose:
   siteurl: 'https://gifmos-c7c37.firebaseapp.com/'
   media: 'content/images'
   metadata:
+    - name: "published"
+      field:
+        element: "checkbox"
+        label: "Published"
+        value: false
     content/blog:
       - name: "title"
         field:
