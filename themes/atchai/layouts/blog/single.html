@@ -10,68 +10,10 @@
               <h1>{{ .Title }}</h1>
   
               {{ .Content }}
-  
-              {{ $author := index .Site.Params.authors .Params.author }}
-              
-              <div class="post-author">
-                  <div class="post-author-left-container">
-                      <img src="{{ $author.thumbnail }}" class="post-author-img">
-                  </div>
-                  <div class="post-author-right-container">
-                      <h4 class="post-author-header">{{ $author.name }}</h4>
-                      <p class="post-author-text">{{ $author.bio }}</p>
-                      <p class="post-author-date"><em>Posted on: {{ .Date.Format "2 Jan 2006" }}</em></p>
-                      
-                      <p class="post-social-icons">
-                        {{ if isset $author "email"  }}
-                        <a class="social-icon" href="mailto:{{ $author.email }}">
-                          <svg class="svg-icon">
-                            <use xlink:href="/img/svg-icons.svg#svg-icon-mail"/>
-                          </svg>
-                        </a>
-                        {{ end }}
-                        {{ if isset $author "twitter"  }}
-                        <a class="social-icon" href="{{ $author.twitter }}">
-                          <svg class="svg-icon">
-                            <use xlink:href="/img/svg-icons.svg#svg-icon-twitter"/>
-                          </svg>
-                        </a>
-                        {{ end }}
-                        {{ if isset $author "linkedin"  }}
-                        <a class="social-icon" href="{{ $author.linkedin }}">
-                          <svg class="svg-icon">
-                            <use xlink:href="/img/svg-icons.svg#svg-icon-linkedin"/>
-                          </svg>
-                        </a>
-                        {{ end }}
-                        {{ if isset $author "medium"  }}
-                        <a class="social-icon" href="{{ $author.medium }}">
-                          <svg class="svg-icon">
-                            <use xlink:href="/img/svg-icons.svg#svg-icon-medium"/>
-                          </svg>
-                        </a>
-                        {{ end }}
-                        {{ if isset $author "github"  }}
-                        <a class="social-icon" href="{{ $author.github }}">
-                          <svg class="svg-icon">
-                            <use xlink:href="/img/svg-icons.svg#svg-icon-github"/>
-                          </svg>
-                        </a>
-                        {{ end }}
-                        
-                        <!--
-                            <a class="social-icon" href="#">
-                              <svg class="svg-icon">
-                                <use xlink:href="/img/svg-icons.svg#svg-icon-facebook"/>
-                              </svg>
-                            </a>
-                        -->
-                      </p>
-                      
-                  </div>
-              </div>
-              
-              <!-- Begin MailChimp Signup Form -->
+
+
+
+            <!-- Begin MailChimp Signup Form -->
               <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
               <style type="text/css">
               	#mc_embed_signup{background:#fff; clear:left; color:#198cdd; font:21px Raleway-SemiBold,sans-serif; width:100%;}
@@ -79,7 +21,7 @@
               	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
               </style>
               <div id="mc_embed_signup">
-              <form action="//atchai.us5.list-manage.com/subscribe/post?u=d903a2d8b6d33449b89725c99&amp;id=ba8c376080" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                   <div id="mc_embed_signup_scroll">
               	<label for="mce-EMAIL" style="font-size:21px">Subscribe for monthly articles</label>
               	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>

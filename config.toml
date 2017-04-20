@@ -1,4 +1,4 @@
-baseURL = "https://gifmos-c7c37.firebaseapp.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "GIFMos"
 googleAnalytics = "UA-97636604-1"
@@ -15,33 +15,11 @@ pluralizelisttitles = false
   dateformat = "Jan 2, 2006" # Optional
 
 [params.authors]
-	[params.authors.JohnGriffin]
-    name  = "John Griffin - Founder and Principal Consultant"
-		thumbnail		= "/img/authors/vacant2.jpg"
-		bio				= "John has a background as a creative technologist and entrepreneur. Armed with a Masters in Computer Systems Engineering and the experience gained from founding multiple companies, he has spent the last 12 years creating innovative digital products for clients including Amnesty International, BBC, NHS, Bank of England, Turner Broadcasting, and WWF.  "
-    email   = "john@atchai.com"
-    linkedin = "https://www.linkedin.com/in/j0hngriffin"
-    twitter = "https://twitter.com/johngriffin"
-    medium = "https://medium.com/@john.griffin"
-    github = "https://github.com/johngriffin"
-
-	[params.authors.PhilipOlivier]
-    name  = "Philip Olivier - Operations Manager"
-		thumbnail		= "/img/authors/philip_olivier_profile.png"
-		bio				= "Philip makes light work out of keeping projects on track, and clients happy. He excels at bridging the gap between user and technology. From the Discovery Phase, through research, delivery, and testing, Philip will be keeping the client well informed, and the delivery team motivated. He’s a Certified ScrumMaster (CSM) but also brings with him a wide range of experience from working in the charity, legal, and film industries. He also cooks a mean barbecue."
-    email   = "philip.olivier@atchai.com"
-    twitter = "https://twitter.com/thephilolivier"
-
-	[params.authors.RobHardwick]
-    name  = "Rob Hardwick - Lead Developer"
-		thumbnail		= "/img/authors/rob_action.jpg"
-		bio				= "Previously Head of Technology at Nameless Media Group, Rob's been mastering his art since he started coding at the tender age of 12. He’s worked on projects for clients such as HSBC, Colston Hall, University of Bristol, Sustrans, RFU and Ofcom. He brings with him not only a wealth of experience, but also a keen eye for perfection when it comes to building modern, standards-compliant, beautiful and usable websites."
-    email   = "rob.hardwick@atchai.com"
-    twitter = "https://twitter.com/robhardwick86"
-    github = "https://github.com/robhardwick"
-
-	[params.authors.AndrewLow]
-    name  = "Andrew Low - Junior Developer"
-		thumbnail		= "/img/authors/andrew.png"
-		bio				= "Andrew joined us mid 2014 on an internship programme. He's a recent graduate in Astrophysics from the University of London. During his time with Atchai, Andrew has developed a good working knowledge of how to build web applications using HTML, CSS, Javascript and Python. In his spare time he's a keen photographer and pianist."
-    email   = "andrew@atchai.com"
+	[params.authors.DhirajGupta]
+        name  = "Dhiraj Gupta - Tech lead"
+        thumbnail		= "/img/authors/dhiraj.jpg"
+        bio				= "Just an awesome guy"
+        email   = "dhiraj@traversient.com"
+        linkedin = "https://www.linkedin.com/in/dhiraj"
+        twitter = "https://twitter.com/dhiraj"
+        github = "https://github.com/dhiraj"

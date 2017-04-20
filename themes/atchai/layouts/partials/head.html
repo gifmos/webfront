@@ -1,36 +1,34 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{ .Title }} - Atchai Digital</title>
+	<title>{{ .Title }} - GIFMos</title>
     <meta name="description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}">
     
     <!-- Twitter Card data -->
     {{ if isset .Params "header_image"  }}
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="http://atchai.com{{ .Params.header_image }}">
+        <meta name="twitter:image" content="https://gifmos.com{{ .Params.header_image }}">
     {{ else }}
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:image" content="http://atchai.com/img/logo-no-text-525px.png">
+        <meta name="twitter:image" content="https://gifmos.com/img/gifmoslogo.png">
     {{ end }}
-    <meta name="twitter:site" content="@atchai">
-    <meta name="twitter:title" content="{{ .Title }} - Atchai">
+    <meta name="twitter:site" content="@gifmos">
+    <meta name="twitter:title" content="{{ .Title }} - GIFMos">
     <meta name="twitter:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}">
     
 
     <!-- Open Graph data -->
     {{ if isset .Params "header_image"  }}
-        <meta property="og:image" content="http://atchai.com{{ .Params.header_image }}" />
+        <meta property="og:image" content="https://gifmos.com{{ .Params.header_image }}" />
     {{ else }}
-        <meta property="og:image" content="http://atchai.com/img/logo-no-text-525px.png" />
+        <meta property="og:image" content="http://gifmos.com/img/gifmoslogo.png" />
     {{ end }}
-    <meta property="og:title" content="{{ .Title }} - Atchai" />
+    <meta property="og:title" content="{{ .Title }} - GIFMos" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://atchai.com{{ .Permalink }}" />
+    <meta property="og:url" content="http://gifmos.com{{ .Permalink }}" />
     <meta property="og:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}" /> 
-    <meta property="og:site_name" content="Atchai" />
-    <meta property="fb:admins" content="688546114" />
-    <link href=”https://plus.google.com/108322447081262331696” rel=”publisher” />
-    
+    <meta property="og:site_name" content="GIFMos" />
+
     <!-- ADDING CSS -->
     <link rel="stylesheet" type="text/css" href="/dist/css/index.min.css"/>
     <link rel="stylesheet" type="text/css" href="/dist/css/svg-icons.css"/>
@@ -40,24 +38,6 @@
     <script src="/dist/js/respond.min.js"></script>
     <![endif]-->
     
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/img/favicons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg">
-    <link rel="canonical" href="http://atchai.com{{ .Permalink }}">
+    <link rel="canonical" href="https://gifmos.com{{ .Permalink }}">
     
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
 </head>

@@ -1,6 +1,7 @@
 prose:
   rooturl: 'content'
-  media: 'static/images'
+  siteurl: 'https://gifmos-c7c37.firebaseapp.com/'
+  media: 'content/images'
   metadata:
     content/blog:
       - name: "title"
