@@ -5,10 +5,13 @@ node_js:
 script:
   - echo "Gulping"
   - gulp sass
+  - hugo
 
 install:
   - npm install -g firebase-tools
   - npm install -g gulp
+  - npm install
+
 
 after_success:
   - firebase deploy --token $FIREBASE_TOKEN
