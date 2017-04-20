@@ -1,4 +1,6 @@
-language: go
+language: node_js
+node_js:
+  - "node"
 
 script:
   - echo "Gulping"
