@@ -1,7 +1,7 @@
-language: node_js
+language: go
 
-node_js:
-  - "node"
+go:
+  - "1.7.4"
 
 
 script:
@@ -10,16 +10,12 @@ script:
   - hugo
 
 install:
+  - . $HOME/.nvm/nvm.sh
+  - nvm install stable
+  - nvm use stable
   - npm install -g firebase-tools
   - npm install -g gulp
   - npm install
-  - export GOPATH=$HOME/gopath
-  - export PATH=$HOME/gopath/bin:$PATH
-#  - mkdir -p $HOME/gopath/src/github.com/gifmos/webfront
-#  - rsync -az ${TRAVIS_BUILD_DIR}/ $HOME/gopath/src/github.com/gifmos/webfront/
-#  - export TRAVIS_BUILD_DIR=$HOME/gopath/src/github.com/gifmos/webfront
-#  - cd $HOME/gopath/src/github.com/gifmos/webfront
-  - go version
   - go get -v github.com/spf13/hugo
 
 
