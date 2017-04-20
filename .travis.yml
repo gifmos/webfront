@@ -1,6 +1,4 @@
-language: node_js
-node_js:
-  - "node"
+language: go
 
 script:
   - echo "Gulping"
@@ -11,6 +9,7 @@ install:
   - npm install -g firebase-tools
   - npm install -g gulp
   - npm install
+  - go get -v github.com/spf13/hugo
 
 
 after_success:
