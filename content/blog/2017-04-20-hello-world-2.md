@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Hello world 2
 ---
 ## A New published Post
